@@ -1,11 +1,19 @@
-html {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
 }
+
+.container {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
 .navbar {
   width: 100%;
   font-size: 13px;
   overflow: hidden;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .navbar-right {
@@ -102,4 +110,39 @@ html {
 
 .content__language > a {
   text-decoration: none;
+}
+
+.footer {
+  background-color: rgba(242, 242, 242);  
+  color: rgba(0, 0, 0, 0.54);
+  height: 80px;
+}
+
+.footer-top {
+  padding: 10px 0;
+  font-size: 15px;
+  padding-left: 30px;
+  border-top: solid 1px #e4e4e4;
+  border-bottom: solid 1px #e4e4e4;
+}
+
+.footer-bottom  {
+  font-size: 13px;
+  margin-top: 12.5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer-bottom > div {
+  margin-left: 30px;
+  float: left;
+}
+
+#footer-bottom-right {
+  float: right;
+  display: flex;
+}
+
+#footer-bottom-right > div {
+  margin-right: 20px;
 }
