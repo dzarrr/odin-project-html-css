@@ -3,8 +3,8 @@
 <html>
   <head>
     <title>Google</title>
-
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -27,16 +27,22 @@
         </div>
       </div>
       <div class="content">
-        <img src="" alt="" id="content__logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo " id="content__logo">
         <form action="">
-          <input type="text" id="content__search_box">
-          <div class="button">
-            <input type="submit" value="Google Search">
-            <button id="button__lucky">
+          <div id="content__search_box">
+            <i class="fa fa-search content__icon-left"></i>
+            <input type="text">
+            <i class="fa fa-microphone content__icon-right"></i>
+          </div>
+          <div class="content__button">
+            <input type="submit" value="Google Search" class="button-grey">
+            <button class="button-grey">
               I'm Feeling Lucky
             </button>
           </div>
-          <span>Google offered in: <a href="">Indonesia</a> <a href="">Basa Bali</a> </span>
+          <span class="content__language">
+            Google offered in: <a href="">Indonesia</a> <a href="">Basa Bali</a>
+          </span>
         </form>
 
       </div>

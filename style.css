@@ -1,6 +1,8 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .navbar {
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   overflow: hidden;
   margin-top: 20px;
@@ -27,4 +29,77 @@
   height: 30px;
   line-height: 30px;
   text-align: center;
+}
+
+.content {
+  margin: 150px auto 0 auto;
+  width: fit-content;
+}
+
+#content__logo {
+  display: block;
+  margin: auto;
+}
+
+#content__search_box {
+  border-radius: 30px;
+  border: solid 1px rgb(223, 225, 229);
+  padding: 12.5px;
+  width: 500px;
+  margin-top: 20px;
+  display: flex;
+}
+
+#content__search_box:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)
+}
+
+#content__search_box > input {
+  display: block;
+  width: 85%;
+  border: none;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+#content__search_box > input:focus {
+  outline: none;
+}
+
+.content__icon-left{
+  margin-left: 5px;
+}
+
+.content__icon-right{
+  margin-right: 5px;
+}
+
+.button-grey {
+  border: none;
+  background-color: #f2f2f2;
+  padding: 10px 17.5px;
+  font-size: 14px;
+  color: #5F6368;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.content__button {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.content__language {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.content__language > a {
+  text-decoration: none;
 }
